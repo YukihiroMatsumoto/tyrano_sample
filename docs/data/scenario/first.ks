@@ -1,46 +1,154 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="クイズ（全3問）"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+第一問[l][r]
 
-メロスは激怒した。[l][r]
+アラビア数字が生まれた場所は？[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
-
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_egypt] →エジプト [endlink][r]
+[link target=*tag_arabia] →サウジアラビア [endlink][r]
+[link target=*tag_india] →インド [endlink][r]
 [s]
 
-*tag_sleep
+*tag_egypt
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+不正解[l][r]
+【答え】インド[r]
+アラビア人からヨーロッパにもたらされたためアラビア数字と名付けられたそうです。[r]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+[l][cm]
 
-【 BAD END 】[l][cm]
+[jump target=*question2]
 
-[jump target=*start]
-
-*tag_run
-
-[bg storage=run.jpg time=500]
+*tag_arabia
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+不正解[l][r]
+【答え】インド[r]
+アラビア人からヨーロッパにもたらされたためアラビア数字と名付けられたそうです。[r]
+[l][cm]
 
-【 GOOD END 】[l][cm]
+[jump target=*question2]
+
+*tag_india
+
+[cm]
+
+正解[l][r]
+アラビア人からヨーロッパにもたらされたためアラビア数字と名付けられたそうです。[r]
+[l][cm]
+
+[jump target=*question2]
+
+
+
+*question2
+
+第二問[l][r]
+
+トルコ石が採取できる場所は？[l][r]
+
+[link target=*tag_turkish] →トルコ [endlink][r]
+[link target=*tag_iran] →イラン [endlink][r]
+[link target=*tag_austlia] →オーストリア [endlink][r]
+[s]
+
+*tag_turkish
+
+[cm]
+
+不正解[l][r]
+【答え】イラン[r]
+トルコ石はイランやエジプトで採れます。トルコ商人が扱ったことから名前が付いたそうです。[r]
+
+[l][cm]
+
+[jump target=*question3]
+
+
+*tag_iran
+
+[cm]
+
+正解[l][r]
+トルコ石はイランやエジプトで採れます。トルコ商人が扱ったことから名前が付いたそうです。[r]
+
+[l][cm]
+
+[jump target=*question3]
+
+
+*tag_austlia
+
+[cm]
+
+不正解[l][r]
+【答え】イラン[r]
+トルコ石はイランやエジプトで採れます。トルコ商人が扱ったことから名前が付いたそうです。[r]
+
+[l][cm]
+
+[jump target=*question3]
+
+
+
+*question3
+
+第三問[l][r]
+
+次のうち住所として存在しない地名は？[l][r]
+
+[link target=*tag_ebisu] →恵比寿 [endlink][r]
+[link target=*tag_harajuku] →原宿 [endlink][r]
+[link target=*tag_yoyogi] →代々木 [endlink][r]
+[s]
+
+*tag_ebisu
+
+[cm]
+
+不正解[l][r]
+【答え】原宿[r]
+昭和40年に原宿という住所は他の住所とまとめられ消滅しました。ちなみに、他の地名は、渋谷区代々木、渋谷区恵比寿として存在します。[r]
+
+[l][cm]
+
+[jump target=*end]
+
+
+*tag_harajuku
+
+[cm]
+
+正解[l][r]
+昭和40年に原宿という住所は他の住所とまとめられ消滅しました。ちなみに、他の地名は、渋谷区代々木、渋谷区恵比寿として存在します。[r]
+
+[l][cm]
+
+[jump target=*end]
+
+
+*tag_yoyogi
+
+[cm]
+
+不正解[l][r]
+【答え】原宿[r]
+昭和40年に原宿という住所は他の住所とまとめられ消滅しました。ちなみに、他の地名は、渋谷区代々木、渋谷区恵比寿として存在します。[r]
+
+[l][cm]
+
+[jump target=*end]
+
+*end[1]
+[cm]
+おつかれさまでした！[r]
+[1][cm]
 
 [jump target=*start]
